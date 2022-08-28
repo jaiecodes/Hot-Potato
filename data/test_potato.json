@@ -1,0 +1,25 @@
+{
+  "name": "Mr.Potato",
+  "age": 43,
+  "type": "plain",
+  "description": "Likes to be taken apart",
+  "room": "living room",
+  "love_rating": 0.5,
+  "character_dialogue": [ {
+    "id": 0,
+    "line": "Hello welcome to Potatoland",
+    "phase": "tutorial",
+    "options": [
+      0,
+      1
+    ]},{
+    "id": 1,
+    "line": "Hello welcome to Potatoland",
+    "phase": "tutorial",
+    "options": [
+      0,
+      1
+    ]
+  }],
+  "current_dialogue": 0
+}

@@ -1,0 +1,604 @@
+{
+  "id": 0,
+  "player": {
+    "name": "Y/N",
+    "type": "N/A"
+  },
+  "characters": [{
+    "name": "Greay",
+    "age": 18,
+    "type": "Yellow Potato",
+    "description": "A smol Yukon Gold\npotato who didn't\n mature as much\nwhile in the ground\n",
+    "image_url" : "https://www.pinclipart.com/picdir/middle/90-901438_potato-potato-sticker-clipart.png",
+    "room": "Farm",
+    "room_url" : "https://www.potatobusiness.com/wp-content/uploads/Potato-Farms-PB.jpg",
+    "love_rating": 0.0,
+    "character_dialogue": [{
+      "id": 0,
+      "line": "Uhm... hello, how may I help you?",
+      "phase": "Introduction",
+      "options": [
+        1,
+        2
+      ],
+      "love_rating": 0.0,
+      "is_interlude": false
+    }, {
+      "id": 1,
+      "line": "Hi, my name is Y/N\nand I'm lost.\n",
+      "phase": "Introduction",
+      "options": [
+        8
+      ],
+      "love_rating": 5.0,
+      "is_interlude": true
+    }, {
+      "id": 2,
+      "line": "Woah you're too cute\nit's unfair!\n",
+      "phase": "Introduction",
+      "options": [
+        3
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 3,
+      "line": "Umh... thanks... [Blushes] But do you need help?",
+      "phase": "Introduction",
+      "options": [
+        4,
+        5
+      ],
+      "love_rating": 0.0,
+      "is_interlude": false
+    }, {
+      "id": 4,
+      "line": "Oh yes,\nI'm lost.\n",
+      "phase": "Introduction",
+      "options": [
+        8
+      ],
+      "love_rating": 2.5,
+      "is_interlude": true
+    }, {
+      "id": 5,
+      "line": "Ugh yes! I wan-\nneed you!\n",
+      "phase": "Introduction",
+      "options": [
+        6
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 6,
+      "line": "Uhmm.. excuse me?",
+      "phase": "Introduction",
+      "options": [
+        7
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 7,
+      "line": "I-uh I mean. I need you because I'm lost.",
+      "phase": "Introduction",
+      "options": [
+        8
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 8,
+      "line": "Oh... no! [Concerned]",
+      "phase": "Introduction",
+      "options": [
+        9
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 9,
+      "line": "Well, I can show you around! Let's go!",
+      "phase": "Introduction",
+      "options": [
+        10
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 10,
+      "line": "The farm is so lovely!",
+      "phase": "Friendship",
+      "options": [
+        11
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }],
+    "current_dialogue": 0
+  }, {
+    "name": "Roux",
+    "age": 32,
+    "type": "Russet Potato",
+    "description": "A Pomerelle Russet\nthat confused paumelle\nfor pomerelle and\nthinks they're french\n",
+    "image_url" : "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/4565162/original/Am_potato_jpeg/replace-your-face-with-a-potato-in-photoshop.jpg",
+    "room": "Farm",
+    "room_url" : "https://www.potatobusiness.com/wp-content/uploads/Potato-Farms-PB.jpg",
+    "love_rating": 0.0,
+    "character_dialogue": [{
+      "id": 0,
+      "line": "Bonjour, stranger what brings you to my Ferme",
+      "phase": "Introduction",
+      "options": [
+        1,
+        2
+      ],
+      "love_rating": 0.0,
+      "is_interlude": false
+    }, {
+      "id": 1,
+      "line": "Huh, why are talking\n in French? I thought\nI was lost\nin a US Farm.\n",
+      "phase": "Introduction",
+      "options": [
+        3
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 2,
+      "line": "Salut!\nI just sprouted\nfrom the ground\nand... well,\nI'm lost.",
+      "phase": "Introduction",
+      "options": [
+        4
+      ],
+      "love_rating": 2.5,
+      "is_interlude": true
+    }, {
+      "id": 3,
+      "line": "You are... but I am une pomme de terre française!",
+      "phase": "Introduction",
+      "options": [
+        5
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 4,
+      "line": "Why such a cultured potato and so young! [Gleams]",
+      "phase": "Introduction",
+      "options": [
+        5
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 5,
+      "line": "Lost.. huh? Why I am un extrait du guide de la ferme!",
+      "phase": "Introduction",
+      "options": [
+        6,
+        7
+      ],
+      "love_rating": 0.0,
+      "is_interlude": false
+    }, {
+      "id": 6,
+      "line": "Really? I guess\nlead the way.\n",
+      "phase": "Introduction",
+      "options": [
+        8
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 7,
+      "line": "Excellent!(in french)\nMy hero!\n",
+      "phase": "Introduction",
+      "options": [
+        9
+      ],
+      "love_rating": 2.5,
+      "is_interlude": true
+    }, {
+      "id": 8,
+      "line": "Yes reeally! [Mockly] Follow moi!\n(They really do sprout with attitude these days)\n",
+      "phase": "Introduction",
+      "options": [
+        10
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 9,
+      "line": "Tellement polie... [Blushes] Let's go explore la ferme!",
+      "phase": "Introduction",
+      "options": [
+        10
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 10,
+      "line": "You see, la ferme is where all the potatoes grow...",
+      "phase": "Introduction",
+      "options": [
+        11
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 11,
+      "line": "The farm is so lovely!",
+      "phase": "Buds",
+      "options": [
+        12
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }],
+    "current_dialogue": 0
+  }, {
+    "name": "Fi",
+    "age": 21,
+    "type": "French Fry",
+    "description": "A self-obsessed\nFried Potato that is \npart of Fhi Fsi with\ntheir fellow fries\n",
+    "image_url" : "https://www.jing.fm/clipimg/detail/9-91463_french-fries-clipart-png-papas-cheeseria-fries.png",
+    "room": "Dining Room",
+    "room_url" : "https://static2.mansionglobal.com/production/media/article-images/92231b5c5546e0b423aa8bcaef8611b0/large_5.De-Concilis_B0009683_4K.jpg",
+    "love_rating": 0.0,
+    "character_dialogue": [{
+      "id": 0,
+      "line": "Hey, what up? You here for the party??",
+      "phase": "Introduction",
+      "options": [
+        1,
+        2
+      ],
+      "love_rating": 0.0,
+      "is_interlude": false
+    }, {
+      "id": 1,
+      "line": "Of course, ha.",
+      "phase": "Introduction",
+      "options": [
+        3
+      ],
+      "love_rating": 2.5,
+      "is_interlude": true
+    }, {
+      "id": 2,
+      "line": "Huh, what party?",
+      "phase": "Introduction",
+      "options": [
+        4
+      ],
+      "love_rating": 2.5,
+      "is_interlude": true
+    }, {
+      "id": 3,
+      "line": "Great, we set up the Table the with games\nand drinks at Chair III [Winks]\n",
+      "phase": "Introduction",
+      "options": [
+        5
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 4,
+      "line": "The annual Fhi Fsi Ketchup fest!!\nAnyone's welcome to participate.\n",
+      "phase": "Introduction",
+      "options": [
+        5
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 5,
+      "line": "Well do you have any questions?",
+      "phase": "Introduction",
+      "options": [
+        6,
+        7
+      ],
+      "love_rating": 0.0,
+      "is_interlude": false
+    }, {
+      "id": 6,
+      "line": "Is everyone here\nas cute as you?\n",
+      "phase": "Introduction",
+      "options": [
+        8
+      ],
+      "love_rating": 2.5,
+      "is_interlude": true
+    }, {
+      "id": 7,
+      "line": "Where's the Ketchup?",
+      "phase": "Introduction",
+      "options": [
+        9
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 8,
+      "line": "Nah, I'm rarity! If I do say so myself. [Smirks]",
+      "phase": "Introduction",
+      "options": [
+        10
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 9,
+      "line": "Oh [laughs] it's near the fruit bowl.",
+      "phase": "Introduction",
+      "options": [
+        10
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 10,
+      "line": "If you're free later, I'll be dipping in the Ketchuzzi. [Smilies]",
+      "phase": "Introduction",
+      "options": [
+        11
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 11,
+      "line": "Welcome to the hall!",
+      "phase": "Friendship",
+      "options": [
+        12
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }],
+    "current_dialogue": 0
+  }, {
+    "name": "Kit",
+    "age": 16,
+    "type": "Mashed Potato",
+    "description": "A freshly made batch\nof Mashed Potato\nwith gravy, of course,\nand don't forget it.\n",
+    "image_url" : "https://ih1.redbubble.net/image.141556126.5186/st,small,507x507-pad,600x600,f8f8f8.jpg",
+    "room": "Kitchen",
+    "room_url" : "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/farmhouse-kitchen-ideas-1559837619.jpg",
+    "love_rating": 0.0,
+    "character_dialogue": [{
+      "id": 0,
+      "line": "Ahhh! Who are you? [Startledly]",
+      "phase": "Introduction",
+      "options": [
+        1,
+        2
+      ],
+      "love_rating": 0.0,
+      "is_interlude": false
+    }, {
+      "id": 1,
+      "line": "I'm Y/N.",
+      "phase": "Introduction",
+      "options": [
+        3
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 2,
+      "line": "Uhmm... you\nsmell amazing!\n",
+      "phase": "Introduction",
+      "options": [
+        4
+      ],
+      "love_rating": 2.5,
+      "is_interlude": true
+    }, {
+      "id": 3,
+      "line": "Well nice to meet you Y/N!",
+      "phase": "Introduction",
+      "options": [
+        6
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 4,
+      "line": "Thank you, I just got re-made!\nAnd my gravy-do is delicious!\n",
+      "phase": "Introduction",
+      "options": [
+        5
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 5,
+      "line": "You also seem like a newly sprouted potato.",
+      "phase": "Introduction",
+      "options": [
+        6
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 6,
+      "line": "So what brings you to the kitchen?!",
+      "phase": "Introduction",
+      "options": [
+        7,
+        8
+      ],
+      "love_rating": 0.0,
+      "is_interlude": false
+    }, {
+      "id": 7,
+      "line": "I was looking for\nsomeone as yummy as you!\n",
+      "phase": "Introduction",
+      "options": [
+        9
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 8,
+      "line": "I'm just exploring!\nI am new.\n",
+      "phase": "Introduction",
+      "options": [
+        11
+      ],
+      "love_rating": 2.5,
+      "is_interlude": true
+    }, {
+      "id": 9,
+      "line": "Hmm young potatoes sure are starchy these days. [Winks]",
+      "phase": "Introduction",
+      "options": [
+        10
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 10,
+      "line": "I also was very starchy before settling down\nand finding my profession.\n",
+      "phase": "Introduction",
+      "options": [
+        12
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 11,
+      "line": "I see, I also explored a lot before deciding to settle down.",
+      "phase": "Introduction",
+      "options": [
+        12
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 12,
+      "line": "If you're looking for any advice. I'm here to talk! [Gently]",
+      "phase": "Introduction",
+      "options": [
+        13
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }, {
+      "id": 13,
+      "line": "Well the kitchen is the spiciest room!",
+      "phase": "Friendship",
+      "options": [
+        14
+      ],
+      "love_rating": 0.0,
+      "is_interlude": true
+    }],
+    "current_dialogue": 0
+  }],
+  "dialogue_tree": [{
+    "id": 0,
+    "line": "Hello there young potato!",
+    "phase": "Start",
+    "options": [
+      1
+    ],
+    "love_rating": 0.0,
+    "is_interlude": false
+  }, {
+    "id": 1,
+    "line": "What's your name?",
+    "phase": "Name",
+    "options": [
+      2
+    ],
+    "love_rating": 0.0,
+    "is_interlude": false
+  }, {
+    "id": 2,
+    "line": "Y/N, what a great name!",
+    "phase": "Start",
+    "options": [
+      3
+    ],
+    "love_rating": 0.0,
+    "is_interlude": false
+  }, {
+    "id": 3,
+    "line": "Now, Y/N!\nWhat type of potato are you?\n",
+    "phase": "Type",
+    "options": [
+      4
+    ],
+    "love_rating": 0.0,
+    "is_interlude": false
+  }, {
+    "id": 4,
+    "line": "Well, Y/N the N/A potato\nWelcome to Potatoland\naka your non-regular US farm!\nThere's a field, a kitchen,\nand even a dining room\nfilled with all kinds of potatoes!\nFeel free to explore\nand meet as many potatoes as you can!\nWho knows maybe you might\neven find more than just friendship!\n",
+    "phase": "Start",
+    "options": [
+      5
+    ],
+    "love_rating": 0.0,
+    "is_interlude": false
+  }, {
+    "id": 5,
+    "line": "You got this! You hot potato!",
+    "phase": "Start",
+    "options": [
+      6
+    ],
+    "love_rating": 0.0,
+    "is_interlude": false
+  }, {
+    "id": 5,
+    "line": "Wow you've met your first potato!",
+    "phase": "First Date",
+    "options": [
+      6
+    ],
+    "love_rating": 0.0,
+    "is_interlude": false
+  }, {
+    "id": 6,
+    "line": "I know you're a dating pro\nbut make sure to check all your options!",
+    "phase": "First Date",
+    "options": [
+      7
+    ],
+    "love_rating": 0.0,
+    "is_interlude": false
+  }, {
+    "id": 7,
+    "line": "Best of luck!",
+    "phase": "First Date",
+    "options": [
+      8
+    ],
+    "love_rating": 0.0,
+    "is_interlude": false
+  }, {
+    "id": 8,
+    "line": "Wow, you've really connected with a certain potato!",
+    "phase": "Max Love",
+    "options": [
+      9
+    ],
+    "love_rating": 0.0,
+    "is_interlude": false
+  }, {
+    "id": 9,
+    "line": "Now, you have to decide!\nAre you ready\nto make it official?",
+    "phase": "Max Love",
+    "options": [
+      10
+    ],
+    "love_rating": 0.0,
+    "is_interlude": false
+  }],
+  "current_dialogue": 0,
+  "current_phase": "Start",
+  "current_room": "N/A"
+}
